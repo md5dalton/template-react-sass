@@ -1,0 +1,16 @@
+@use "../util" as *
+
+*, 
+*::before, 
+*::after
+    box-sizing: border-box
+
+body
+    margin: 0
+    padding: 0
+    font-family: var(--font)
+    color: var(--color-text)
+    background-color: var(--color-bg)
+
+.container, main, header, footer
+    @include container-a
